@@ -1,8 +1,8 @@
 import requests
 from twilio.rest import Client
 
-VIRTUAL_TWILIO_NUMBER = "+1 973 671 8156"
-VERIFIED_NUMBER = "+91 89392 71691"
+VIRTUAL_TWILIO_NUMBER = "Twilio Number"
+VERIFIED_NUMBER = "Your Phone number"
 
 STOCK_NAME = "LCID"
 COMPANY_NAME = "Lucid Group, Inc. "
@@ -10,10 +10,10 @@ COMPANY_NAME = "Lucid Group, Inc. "
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-STOCK_API_KEY = "WJHY9JKRX8JQRQW3"
-NEWS_API_KEY = "0a1e1e8320d04f558c09a56a55db449d"
-TWILIO_SID = "ACfdcf924046a22b86f7af632ccd4214e9"
-TWILIO_AUTH_TOKEN = "4badae77ae0497f8f1bba15004bf3ce7"
+STOCK_API_KEY = ""
+NEWS_API_KEY = ""
+TWILIO_SID = ""
+TWILIO_AUTH_TOKEN=""
 
 
 stock_params = {
